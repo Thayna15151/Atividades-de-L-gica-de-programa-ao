@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+    inteiro n1,n2,n3
+	inteiro quadrado1,quadrado2,quadrado3
+	
+		
+	escreva("Informe o primeiro número:")
+	leia(n1)
+	escreva("\nInforme o segundo número:")
+	leia(n2)
+	escreva("\nInforme o terceiro número:")
+	leia(n3)
+		
+	quadrado1 = n1 * n1
+	quadrado2 = n2 * n2
+	quadrado3 = n3 * n3
+	
+	se (quadrado3<=1000){
+	 escreva("\nO quadrado de ",n3," é ",quadrado3)
+	}senao{
+	  escreva("\nEu amo o IFSertaoPE campus Salgueiro!!!")
+	}	
+		
+	}
+}
