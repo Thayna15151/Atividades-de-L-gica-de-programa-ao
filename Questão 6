@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+    inteiro n1,resultado2
+	real valor1 = 1.30,valor2 = 1.00,resultado1
+		
+	escreva("Informe o número de abacates que você deseja:")
+	leia(n1)
+	
+	se (n1<=6){
+     	resultado1 = n1*valor1
+	escreva("\nO valor da compra é de ",resultado1," reais")
+	}senao se(n1>6){
+	    resultado2 = n1*valor2
+	escreva("\nO valor da compra é de ",resultado2," reais")
+	}
+	
+		
+	}
+}
