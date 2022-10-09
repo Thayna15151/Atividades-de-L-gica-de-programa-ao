@@ -4,6 +4,7 @@ programa
 	{
 		
     inteiro n1,resultado2
+
     real valor1 = 1.30,valor2 = 1.00,resultado1
 		
 	escreva("Informe o número de abacates que você deseja:")
