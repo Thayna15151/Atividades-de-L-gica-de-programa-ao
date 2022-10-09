@@ -1,0 +1,33 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		
+	real salario,novosalario
+	real reajuste1=15,reajuste2=12,reajuste3=10,reajuste4=7,reajuste5=4,reajuste6=0
+		escreva("Informe seu salário:")
+		leia(salario)
+	se (salario<=400){
+		novosalario = salario*reajuste1/100+salario
+		escreva("\nO seu novo salário é de ",novosalario)
+	}senao se(salario<=700){
+		novosalario = salario*reajuste2/100+salario
+		escreva("\nO seu novo salário é de ",novosalario)
+	}senao se (salario<=1000){
+		novosalario = salario*reajuste3/100+salario
+		escreva("\nO seu novo salário é de ",novosalario)
+	}senao se (salario<=1800){
+		novosalario = salario*reajuste4/100+salario
+		escreva("\nO seu novo salário é de ",novosalario)
+	}senao se (salario<=2500){
+		novosalario = salario*reajuste5/100+salario
+		escreva("\nO seu novo salário é de ",novosalario)
+	}senao se (salario>=2500){
+		novosalario = salario*reajuste6/100+salario
+		escreva("Sem aumento para você")
+	}
+	
+		
+	}
+}
