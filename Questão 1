@@ -1,0 +1,26 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+	inteiro n1,n2
+	
+	escreva("Informe um número")
+	leia(n1)
+	escreva("Informe um número")
+	leia(n2)
+		
+  se (n1>n2){
+	escreva("Primeiro é maior")
+ }senao se(n2>n1){
+    escreva("Segundo é maior")
+ }senao
+    escreva("Os números são iguais")
+ 
+		
+		
+		
+		
+		
+	}
+}
