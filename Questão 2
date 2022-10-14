@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+	real salario,emprestimo,media
+	escreva("Informe o seu salário:")
+	leia(salario)
+	escreva("Qual valor do empréstimo:")
+	leia(emprestimo)	
+		
+	media = salario * 5
+	
+	se (emprestimo<=media)
+	   escreva("empréstimo concedido!!!")
+	senao escreva("empréstimo negado!!!")
+		
+		
+	escreva("\nRogério,pare de gastar!")
+		
+		
+		
+		
+	}
+}
