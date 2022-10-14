@@ -1,0 +1,27 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro n1
+		
+		escreva("Informe sua nota:")
+		leia(n1)
+		
+		se (n1<=3){
+		escreva("Conceito E")
+	}	senao se (n1<=5){
+		escreva("Conceito D")
+	}	senao se (n1<=7){
+		escreva("Conceito C")
+	}	senao se (n1<=9){
+		escreva("Conceito B")
+	}	senao se(n1>=10)
+		escreva("Conceito A")
+		
+		
+	}
+		
+	}
+		
+
