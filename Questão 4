@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+	inteiro n1,n2,n3,media
+	escreva("Informe um número:")
+		leia(n1)
+	escreva("Informe um número:")
+	    leia(n2)
+    escreva("Informe um número:")
+	    leia(n3)
+		
+	se 	(n1>=n2) e (n2>=n3) {
+	media = n1 + n2
+	escreva("o resultado da soma é de ",media)
+	}senao se (n1<=n2) e (n2<=n3){
+	media = n2 + n3
+	escreva("o resultado da soma é de ",media)
+    }senao se  (n1>=n2) e (n2<=n3){
+	media = n1 + n3
+	escreva("o resultado da soma é de ",media)
+	
+		
+	}	
+		
+		
+		
+	}
+}
